@@ -1,0 +1,21 @@
+{
+  "name": "strava-pacer",
+  "version": "1.0.0",
+  "description": "an app for analysing runs",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "strava": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "eslint src/js",
+    "start": "node index.js",
+    "devstart": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
